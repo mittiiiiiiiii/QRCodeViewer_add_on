@@ -2,13 +2,10 @@
     <head> 
         <meta charset="UTF-8" />
     </head>
-    <body>
+    <body onload="proc();">
         <div id="popup_body">
             <h1>QRCodeViewer</h1> 
             <div style="display: flex; flex-direction: column;">
-                <div style="margin: 20px;">
-                    <input type="button" id="url_qrcode_button" value="現在のページのQRコード"/>
-                </div>
                 <div style="margin: 20px;">
                     <div id="qrcode" style="padding: 0px 20px;"></div>
                 </div>

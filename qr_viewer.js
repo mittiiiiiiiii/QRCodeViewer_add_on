@@ -1,5 +1,5 @@
 //ポップアップ
-document.getElementById("url_qrcode_button").onclick=() => { 
+function proc(){ 
     chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
         chrome.runtime.sendMessage({ to_backscript: tabs[0].url });
         make_qr_code (tabs[0].url); 
