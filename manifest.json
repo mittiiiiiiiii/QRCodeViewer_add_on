@@ -1,19 +1,19 @@
 {
-    "name":"QRCodeViewer",
-    "version":"0.0.1",
-    "manifest_version":3,
-    "action":{
-        "default_popup":"qr_viewer.html",
-        "default_icon":"icon.png"
+    "name": "QRCodeViewer",
+    "version": "0.1.1",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "qr_viewer.html",
+        "default_icon": "icon.png"
     },
-    "commands":{
-        "_execute_action":{
-            "suggested_key":{
-                "default":"Ctrl+Shift+F",
-                "mac":"MacCtrl+Shift+F"
+    "commands": {
+        "_execute_action": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+F",
+                "mac": "MacCtrl+Shift+F"
             }
         }
     },
-    "permission":["scripting","tabs"],
-    "host_permissions":["http://*/*","https://*/"]
+    "permissions": ["scripting", "tabs"],
+    "host_permissions": ["http://*/*", "https://*/"]
 }
